@@ -16,8 +16,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options => options.SwaggerEndpoint("/openapi/v1.json", "PitWall API"));
 }
 
-app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
