@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.vs/
+*.iml
+*.user
+
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# .NET
+bin/
+obj/
+TestResults/
+*.DotSettings.user
+appsettings.*.local.json
